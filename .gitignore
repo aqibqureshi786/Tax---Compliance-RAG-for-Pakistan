@@ -1,0 +1,152 @@
+# Pakistan Tax RAG - .gitignore
+
+# Environment Variables & API Keys
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+.conda/
+conda-meta/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+*.swp
+*.swo
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# ChromaDB Vector Database
+chroma_db/
+*.db
+*.sqlite3
+*.sqlite
+
+# Logs
+*.log
+logs/
+log/
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Temporary Files
+*.tmp
+*.temp
+*~
+.cache/
+.pytest_cache/
+
+# Model Files (if any)
+models/
+*.model
+*.bin
+*.safetensors
+
+# Streamlit
+.streamlit/
+
+# FastAPI
+.pytest_cache
+
+# Test Files
+test_*.py
+*_test.py
+tests/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+htmlcov/
+
+# Documentation Build
+docs/_build/
+site/
+
+# Backup Files
+*.bak
+*.backup
+*backup*
+
+# Large Files (GitHub limit)
+*.pdf
+Documents/*.pdf
+# Uncomment below to include specific documents
+# !Documents/Income-Tax-Ordinance*.pdf
+# !Documents/IncomeTaxRules*.pdf
+# !Documents/WHT-RateCard.pdf
+
+# Local Configuration
+config.local.json
+settings.local.py
+
+# Node.js (if any frontend tools)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# System Files
+*.pid
+*.seed
+*.pid.lock
+.npm
+.eslintcache
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
